@@ -14,6 +14,7 @@ public class usuario {
     public void agregarInscripcion(Inscripcion insc) {
         this.misInscripciones.add(insc);
     }
+public class Usuario {
     
 
     public String getNombre(){return nombre;}

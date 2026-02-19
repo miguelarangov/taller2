@@ -1,4 +1,4 @@
-public enum Nivel {
+public enum nivel {
     BASICO,
     INTERMEDIO,
     AVANZADO

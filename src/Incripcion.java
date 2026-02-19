@@ -1,15 +1,15 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class Incripcion {
+public class incripcion {
     public String Fecha;
-    private Estado estado;
+    private estado estado;
     private double progreso;
     private List<Leccion> leccionesCompletadas;
 
-    public Incripcion (String fecha) {
+    public incripcion (String fecha) {
         this.Fecha = fecha;
-        this.estado = Estado.ACTIVA;
+        this.estado = estado.ACTIVA;
         this.progreso = 0.0;
         this.leccionesCompletadas = new ArrayList<>();
     }

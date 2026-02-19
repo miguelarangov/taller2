@@ -1,14 +1,14 @@
 import java.util.List;
 import java.util.ArrayList;
 
-public class Curso {
+public class curso {
     private String titulo;
     private String descripcion;
     public String categoria;
     public Nivel nivel;
     private List<Leccion> lecciones;
 
-    public Curso(String titulo, String descripcion, String categoria, Nivel nivel){
+    public curso(String titulo, String descripcion, String categoria, Nivel nivel){
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.categoria = categoria;

@@ -24,4 +24,7 @@ public class curso {
     public String getTitulo(){
         return titulo;
     }
+    public String getDescripcion(){
+        return descripcion;
+    }
 }

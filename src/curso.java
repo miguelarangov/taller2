@@ -1,24 +1,24 @@
 import java.util.List;
 import java.util.ArrayList;
 
-public class curso {
+public class Curso {
     private String titulo;
     private String descripcion;
     public String categoria;
     public Nivel nivel;
-    private List<leccion> lecciones;
+    private List<Leccion> lecciones;
 
-    public curso(String titulo, String descripcion, String categoria, Nivel nivel){
+    public Curso(String titulo, String descripcion, String categoria, Nivel nivel){
         this.titulo = titulo;
         this.descripcion = descripcion;
         this.categoria = categoria;
         this.nivel = nivel ;
         this.lecciones = new ArrayList<>();
     }
-    public void agregarLeccion(leccion leccion){
+    public void agregarLeccion(Leccion leccion){
         lecciones.add(leccion);
     }
-    public List<leccion> getLecciones8(){
+    public List<Leccion> getLecciones8(){
         return lecciones;
     }
     public String getTitulo(){
